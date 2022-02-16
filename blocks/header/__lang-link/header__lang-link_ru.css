@@ -1,0 +1,14 @@
+.header__lang-link_ru {
+    width: 30px;
+    height: 28px;
+    text-decoration: underline;
+    margin-right: 18px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #fff;
+}
