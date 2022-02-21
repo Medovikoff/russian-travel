@@ -1,4 +1,4 @@
-.place__paragraph {
+.place__paragraphs {
     grid-area: paragraph;
     max-width: 484px;
     
@@ -7,20 +7,20 @@
 
 
 @media screen and (max-width: 768px) {
-    .place__paragraph {
+    .place__paragraphs {
     
 
     }
 }
 @media screen and (max-width: 600px) {
-    .place__paragraph {
+    .place__paragraphs {
         width: calc(100% - 16px*2);
         margin: 0 auto 25px;
         padding: 0;
     }
 }
 @media screen and (max-width: 320px) {
-    .place__paragraph  {
+    .place__paragraphs {
         /* max-width: calc(100% - 16px*2); */
         /* max-width: 288px; */
         margin: 0;
