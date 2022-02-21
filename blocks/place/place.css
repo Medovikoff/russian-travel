@@ -1,0 +1,43 @@
+.place {
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-areas: 
+      'title label'
+      '. link'
+      'pic paragraph'
+      'pic paragraph';
+  
+  }
+  .place:last-child {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 1024px){
+    .place {
+        place-content: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    
+    .place {
+        grid-template-areas: 
+    'title'
+    'label'
+    'link'
+    'pic' 
+    'paragraph'
+    'paragraph';
+    }
+}
+@media screen and (max-width: 320px) {
+    
+    .place {
+        
+        grid-template-areas: 
+    'title'
+    'label'
+    'link'
+    'pic' 
+    'paragraph'
+    'paragraph';
+    }
+}
