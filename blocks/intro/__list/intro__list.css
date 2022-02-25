@@ -2,11 +2,23 @@
     padding: 0;
     margin: 33px auto 92px;
     list-style-type: none;
-    font-family: Inter;
     font-size: 12px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 1.5;
     letter-spacing: 0em;
     text-align: left;
+}
+@media screen and (max-width:768px) {
+    .intro__list {
+        margin-bottom: 88px;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .intro__list {
+        margin-top: 34px;
+        margin-bottom: 64px;
+    }
+    
 }

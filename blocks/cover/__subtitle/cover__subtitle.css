@@ -22,13 +22,3 @@
     
 }
 
-@media screen and (max-width: 320px) {
-    
- 
-    .cover__subtitle {
-        margin: 0 auto 33px;
-        max-width: 265px;
-    }
-    
-    
-}

@@ -2,7 +2,6 @@
 .place__url-link { 
     margin: 0 0 48px;
     grid-area: link;
-    font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;

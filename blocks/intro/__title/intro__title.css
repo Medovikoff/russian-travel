@@ -1,7 +1,5 @@
 .intro__title {
-    
     margin: 92px auto 40px;
-    font-family: Inter;
     font-size: 54px;
     font-style: normal;
     font-weight: 900;
@@ -12,19 +10,14 @@
 
 @media screen and (max-width: 768px) {
     .intro__title {
-        text-align: center;
+        margin-top: 88px;
+        
     }
 }
 @media screen and (max-width: 600px) {
     .intro__title {
-        text-align: left;
-        font-size: 32px;
-
-    }
-}
-@media screen and (max-width: 320px) {
-    .intro__title {
-        text-align: left;
+        margin-top: 64px;
+        margin-right: 30px; /*для адаптации что бы не прилипало к краю*/
         font-size: 32px;
 
     }

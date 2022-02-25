@@ -19,25 +19,13 @@
 @media screen and (max-width: 600px) {
     
     .place {
+        margin-bottom: 25px;
         grid-template-areas: 
-    'title'
-    'label'
-    'link'
-    'pic' 
-    'paragraph'
-    'paragraph';
+            'title'
+            'label'
+            'link'
+            'pic' 
+            'paragraph'
+            'paragraph';
+        }
     }
-}
-@media screen and (max-width: 320px) {
-    
-    .place {
-    
-        grid-template-areas:
-    'title'
-    'label'
-    'link'
-    'pic' 
-    'paragraph'
-    'paragraph';
-    }
-}

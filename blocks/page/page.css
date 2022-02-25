@@ -16,7 +16,7 @@ html {
     
     
     
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     color: #fff;
     overflow: hidden;
     box-sizing: border-box;
@@ -29,9 +29,5 @@ html {
     text-rendering: optimizeLegibility;
 
   }
-  /* @media screen and(max-width: 768px) {
-    .page {
-      width: calc(100% - 24px*2);
-    }
-  } */
+
   

@@ -1,23 +1,23 @@
 .place__image {
     grid-area: pic;
-    padding-right: 40px;
+    margin-right: 40px;
     max-width: 460px;
     max-height: 460px;
     width: 100%;
     object-fit: cover;
-    box-sizing: border-box;
+    
 }
 @media screen and (max-width: 1024px){
       
     .place__image {
-        padding-right: 32px;
+        margin-right: 32px;
     }
 }
 @media screen and (max-width: 768px) {
     .place__image {
         max-width: 340px;
         max-height: 340px;
-        padding-right: 28px;
+        margin-right: 28px;
     }
 }
 @media screen and (max-width: 600px) {
@@ -25,12 +25,5 @@
         max-width: 100vw;
         padding: 0;
         margin: 32px 0;
-    }
-}
-@media screen and (max-width: 320px) {
-    .place__image {
-       width:   100vw;
-       padding: 0;
-       margin: 32px 0;
     }
 }
