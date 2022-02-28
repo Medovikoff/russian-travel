@@ -6,10 +6,15 @@
     line-height: 1.6;
     letter-spacing: 0em;
     text-align: left;
+    margin-bottom: 26px;
 
 }
-.place__paragraph:first-child {
-    margin-bottom: 26px;
+.place__paragraph:last-child {
+    margin-bottom: 0;
+
+}
+@media screen and (max-width: 1024px){
+    
 }
 @media screen and (max-width: 768px) {
     .place__paragraph {

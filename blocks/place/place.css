@@ -6,6 +6,7 @@
       '. link'
       'pic paragraph'
       'pic paragraph';
+      column-gap: 40px;
   
   }
   .place:last-child {
@@ -14,6 +15,13 @@
 @media screen and (max-width: 1024px){
     .place {
         place-content: center;
+        column-gap: 32px;
+    }
+}
+@media screen and (max-width: 768px){
+    .place {
+        
+        column-gap: 28px;
     }
 }
 @media screen and (max-width: 600px) {

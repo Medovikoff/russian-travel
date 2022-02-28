@@ -7,19 +7,15 @@
     line-height: 1.1;
     letter-spacing: 0em;
     text-align: right;
+    margin: 0;
     margin-bottom: 24px;
 }
 
-@media screen and (max-width: 768px) {
-    .footer__copyright {
-        margin-bottom: 24px;
-    }
 
-}
 @media screen and (max-width: 600px) {
     .footer__copyright {
         align-items: flex-end;
-        margin-bottom: 24px;
+        
     }
 
 }

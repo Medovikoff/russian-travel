@@ -1,4 +1,5 @@
 .cover {
+    background-image: url('../../../images/поезда.png');
     width: calc(100% - 48px*2);
     min-height: 740px;
     margin: 0 auto 92px;
@@ -8,6 +9,12 @@
     justify-content: center;
     position: relative;
     z-index: 0;
+    
+    background-size: cover;
+    
+    
+    
+
 }
 .cover:before {
     content: '';
