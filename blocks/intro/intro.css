@@ -21,32 +21,3 @@
         /* margin: 0 16px; */
     }
 }
-/* 
-.intro {
-    margin: 0 auto;
-    width: calc(100% - 148px * 2);
-    text-align: center;
-}
-@media screen and (max-width: 1024px){
-   
-    .intro {
-        width: calc(100% - 48px * 2);
-    }
-}
-@media screen and (max-width: 768px) {
-    .intro {
-        width: calc(100% - 24px*2);
-    }
-}
-@media screen and (max-width: 600px) {
-    .intro {
-        width: 100%;
-        padding: 0 16px;
-    }
-}
-@media screen and (max-width: 320px) {
-    .intro {
-        width: 100%;
-        padding: 0 16px;
-    }
-} */

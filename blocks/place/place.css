@@ -1,6 +1,7 @@
 .place {
     margin-bottom: 80px;
     display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
       'title label'
       '. link'
@@ -27,7 +28,8 @@
 @media screen and (max-width: 600px) {
     
     .place {
-        margin-bottom: 25px;
+        margin-bottom: 50px;
+        grid-template-columns: 1fr;
         grid-template-areas: 
             'title'
             'label'
