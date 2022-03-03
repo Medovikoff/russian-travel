@@ -16,4 +16,4 @@
 * файлы оптимизированы
 
 * классификация и файловая структура выполнена по *методологии БЭМ*
-## https://github.com/Medovikoff/russian-travel/index.html
+## https://medovikoff.github.io/russian-travel/index.html
